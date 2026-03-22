@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/:name", "destination": "/api/generate?name=:name" }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://github.com/PetalAdrift/does-not-work-on-your-machine",
+      "permanent": false
+    }
+}
